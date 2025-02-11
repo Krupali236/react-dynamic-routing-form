@@ -1,6 +1,5 @@
 import React from "react";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-// import Home from './pages/Home';
 import Home from "./pages/Home";
 import Navbar from "./components/Navbar";
 import Login from "./pages/Login";
@@ -38,7 +37,6 @@ export default function App() {
   ]);
   return (
     <>
-      {/* <div>Hello</div> */}
       <RouterProvider router={router} />
     </>
   );
